@@ -1,0 +1,19 @@
+footer {
+    height: 75px;
+    width: 100%;
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li {
+        color: white;
+        margin: 5px;
+    }
+    a {
+        color: white;
+    }
+}

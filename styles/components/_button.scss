@@ -1,0 +1,18 @@
+.btn-user {
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: $blue;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+    img {
+        width: 16px;
+        margin-right: 5px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        font-weight: lighter;
+    }
+}

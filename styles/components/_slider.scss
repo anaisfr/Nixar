@@ -1,0 +1,19 @@
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    button {
+        border-radius: 50%;
+        text-indent: -9999px;
+        margin: 5px;
+        border: outline;
+        outline: none;
+        background-color: $blue-light;
+        border: none;
+    }
+}
+
+li.slick-active {
+    button {
+        background-color: $blue;
+    }  
+}
