@@ -239,14 +239,28 @@ footer a {
   display: flex;
   justify-content: center;
 }
-.slick-dots button {
-  border-radius: 50%;
-  text-indent: -9999px;
-  margin: 5px;
-  border: outline;
+
+.slick-dots li {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
   outline: none;
   background-color: #afd0ff;
-  border: none;
+  border-radius: 50%;
 }
 
 li.slick-active button {
