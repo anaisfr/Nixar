@@ -2,26 +2,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .card {
     background-color: #ffffff;
     padding: 180px 20px 20px 20px;
     width: 100%;
+    margin: 20px;
     h2 {
         margin-bottom: 10px;
     }
 }
 
-.card.content {
-    margin: 20px 20px 20px 0px;
-}
-.card.content2 {
-    margin: 20px 20px 20px 0px;
-}
-.card.content3 {
-    margin: 20px 0px 20px 0px;
-}
 
 @media screen and (max-width:780px) {
     
@@ -31,16 +24,6 @@
         img {
             margin-top: 20px;
         }
-    }
-    
-    .card.content {
-        margin: 0;
-    }
-    .card.content2 {
-        margin: 0;
-    }
-    .card.content3 {
-        margin: 0;
     }
 
     h1 {

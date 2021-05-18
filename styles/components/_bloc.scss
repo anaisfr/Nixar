@@ -1,4 +1,5 @@
 .bloc {
+    grid-area: 1fr 2fr;
     display: flex;
     justify-content: center;
     margin-top: 60px;
@@ -6,8 +7,8 @@
     margin-bottom: 30px;
 
     .bloc-panda {
+        grid-area: 1fr;
         position: relative;
-        width: 30%;
 
         img {
             width: 300px;
