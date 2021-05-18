@@ -159,11 +159,22 @@ footer a {
 .card {
   background-color: #ffffff;
   padding: 180px 20px 20px 20px;
-  margin: 20px;
   width: 100%;
 }
 .card h2 {
   margin-bottom: 10px;
+}
+
+.card.content {
+  margin: 20px 20px 20px 0px;
+}
+
+.card.content2 {
+  margin: 20px 20px 20px 0px;
+}
+
+.card.content3 {
+  margin: 20px 0px 20px 0px;
 }
 
 @media screen and (max-width: 780px) {
@@ -184,7 +195,7 @@ footer a {
   justify-content: center;
   margin-top: 60px;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .bloc .bloc-panda {
   position: relative;
@@ -196,9 +207,9 @@ footer a {
 }
 .bloc .bloc-panda p span {
   background-color: white;
-  padding: 5px;
+  padding: 7px;
   position: absolute;
-  bottom: 3px;
+  bottom: 0px;
   left: 0px;
 }
 
@@ -218,13 +229,19 @@ footer a {
 
 @media screen and (max-width: 780px) {
   .bloc {
+    display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .bloc-panda {
     width: 100%;
   }
-  .bloc img {
+  .bloc-panda img {
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    align-self: center;
   }
 
   .bloc-content {

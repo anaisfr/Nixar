@@ -3,7 +3,7 @@
     justify-content: center;
     margin-top: 60px;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 
     .bloc-panda {
         position: relative;
@@ -16,9 +16,9 @@
         p {
             span {
                 background-color: white;
-                padding: 5px;
+                padding: 7px;
                 position: absolute;
-                bottom: 3px;
+                bottom: 0px;
                 left: 0px;
             }
         }
@@ -42,12 +42,18 @@
 @media screen and (max-width:780px) {
     
     .bloc {
+        display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .bloc-panda {
         width: 100%;
         img {
             margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
+            align-self: center;
         }
     }
 
